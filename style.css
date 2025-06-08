@@ -47,6 +47,7 @@ background-repeat: repeat-x;
 
 #main-home {
     margin-top: 120px;
+    background-color: darkgreen;
 }
 
 #bottom-tabs {
@@ -56,7 +57,7 @@ background-repeat: repeat-x;
     z-index: 500;
     width: 100%;
     height: 40px;
-    background-color: forestgreen;
+    background-color: darkgreen;
 }
 
 #bottom-tabs > a {
@@ -120,3 +121,68 @@ background-repeat: repeat-x;
     height: 40px;
 }
 
+/* Animal content Page */
+
+#info-box-full {
+    background-color: rgba(255, 255, 255, .8);
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 10px;
+}
+
+#info-box-full > img {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: 30%;
+}
+
+#info-box-full > h3 {
+    text-align :center
+}
+
+/* Weather Page */
+
+.info-box-weather-icon {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin: 10px;
+}
+
+.info-box-weather-icon-heading {
+font-size: 65px;
+font-weight: 200;
+padding: 0;
+margin: 0;
+}
+
+/* Feedback Page */
+
+input {
+    width: 100%;
+    height: 25px;
+    margin: 12px 0;
+    border: 1px solid #000000;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin: 12px 0;
+    border: 1px solid #000000;
+    font-size: 14px;
+}
+
+.button {
+    display: block;
+    background-color: forestgreen;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px;
+}
